@@ -1,7 +1,8 @@
 import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
+
 import { PackageLinks, TimeIndexState } from '@ag108/ct-utils';
 
-const PKG_NAME = 'datetime';
+const PKG_NAME = 'date & time';
 
 export const Relative = ({setTab}: {setTab: TabDispatchAction}) => {
 	return <PackageLinks modules={['insert']} pkgName={PKG_NAME} libName='relative' backTab={TimeIndexState} setTab={setTab} />;
