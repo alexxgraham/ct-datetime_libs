@@ -1,5 +1,11 @@
 # @ag108/ct-datetime_libs
 
+## 1.0.6
+
+### Patch Changes
+
+- f3164c5: fixed text->color classes for lts of ct-utils styles
+
 ## 1.0.5
 
 ### Patch Changes
