@@ -1,5 +1,11 @@
 # @ag108/ct-datetime_libs
 
+## 1.0.4
+
+### Patch Changes
+
+- 8457fc0: fixed conflicting tailwind classes with IndexDatetime classes for lts of ct-util classes
+
 ## 1.0.3
 
 ### Patch Changes
