@@ -18,11 +18,11 @@ export const IndexDatetime = ({ setTab }: { setTab: TabDispatchAction }) => {
 			<p className={cn('ct-utils_text-accent', 'ct-utils_uppercase')}>
 				[<PackageIndexLink setTab={setTab} />] date & time libraries ({libraries.length}):
 			</p>
-			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-15rem', 'ct-utils_overflow-scroll')}>
+			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-8-75rem', 'ct-utils_overflow-scroll')}>
 				{libraries.map((library, i) => (
 					<li key={i + 1}>
 						<button onClick={() => setTab(library.tabState)} className={cn('ct-utils_uppercase', 'ct-utils_outline-none')}>
-							{i + 1}) [<span className={cn('ct-utils_hover underline', 'ct-utils_cursor-pointer')}>{library.name}</span>]
+							{i + 1}) [<span className={cn('ct-utils_hover ct-utils_underline', 'ct-utils_cursor-pointer')}>{library.name}</span>]
 						</button>
 					</li>
 				))}
